@@ -1,0 +1,1 @@
+I found out that OpenAi has alot of AIs you can interact with so Im just messing around with some them here 
