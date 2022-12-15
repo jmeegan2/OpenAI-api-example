@@ -1,7 +1,6 @@
-import os
 import openai
 
-openai.api_key = os.getenv("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")
+openai.api_key = "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"
 
 response = openai.Completion.create(
   model="text-davinci-003",
@@ -12,3 +11,5 @@ response = openai.Completion.create(
   frequency_penalty=0,
   presence_penalty=0
 )
+print(response) # prints the completed text
+# print(response.model) # prints the model used for the completion
